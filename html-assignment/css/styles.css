@@ -1,0 +1,26 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+/* background of header and foorter */
+header, footer {
+    background-color: rgb(224, 147, 212);
+}
+
+.site-title{
+    color:rgb(197, 3, 191)
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+/* Unorder list background*/
+.hobby-list li:nth-child(odd) {
+    background-color: #c2c2c2; 
+}
+
+
+
+
+
