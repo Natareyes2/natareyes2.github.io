@@ -2,9 +2,15 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
 }
+
+
 /* background of header and foorter */
 header, footer {
     background-color: rgb(224, 147, 212);
+}
+
+ul {
+    list-style-type: square;
 }
 
 .site-title{
@@ -15,11 +21,23 @@ header, footer {
     box-shadow: 0 0 2px 1px black;
 }
 
-/* order list background*/
+/* unorder list background*/
 .hobby-list li:nth-child(odd) {
-    background-color: #c2c2c2; 
+    background-color: #c2c2c2;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:link{
+    background-color: bisque;
+    border: dotted;
+}
+
+a:link:hover{
+    background-color: coral;
+}
 
 
 
