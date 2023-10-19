@@ -1,7 +1,35 @@
 nav ul{
     list-style: none;
 }
-img{
+.img{
     width: 100%;
     height: auto;
+}
+.container{
+    width: 100%;
+}
+img {
+    float: left;
+    margin-right: 20px;
+}
+.form label{
+        display: grid;
+        margin-bottom: 10px;
+}
+.form input[type="text"] {
+    width: 100%;
+}
+.form input[type="email"] {
+    width: 100%;
+}
+.form input[type="message"] {
+    width: 100%;
+}
+
+.option {
+    margin-bottom: 10px;
+}
+
+.option input[type="radio"] {
+    margin-right: 10px; 
 }
