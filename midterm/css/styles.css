@@ -1,35 +1,92 @@
+
+header h1 {
+    position: fixed;
+    top: 30%; 
+    left: 50%; 
+    transform: translate(-50%, -200%);
+    color: white; 
+    font-size: 50px; 
+    text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+
+  body {
+    background-color:powderblue; 
+  }
+
 nav ul{
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
+
+.content{
+
+}
+
+
+.home{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+.story{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+.contact{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 0;
+}
+
+
+
 .img{
     width: 100%;
     height: auto;
 }
-.container{
+.container-1{
     width: 100%;
 }
 img {
     float: left;
     margin-right: 20px;
 }
-.form label{
+.form-1 label{
         display: grid;
         margin-bottom: 10px;
 }
-.form input[type="text"] {
+.form-1 input[type="text"] {
     width: 100%;
 }
-.form input[type="email"] {
+.form-1 input[type="email"] {
     width: 100%;
 }
-.form input[type="message"] {
-    width: 100%;
+#message{
+    resize: none;
+    width: 100%; 
+    height: auto;  
 }
 
-.option {
-    margin-bottom: 10px;
+.container-2{
+    width: auto;
+    margin: auto; 
+    padding: 20px; 
+    border: 1px solid #615d5d; 
 }
 
-.option input[type="radio"] {
-    margin-right: 10px; 
+#bottom-send{
+    background-color:rgb(32, 148, 163); 
+    color: white; 
+    padding: 10px 20px; 
+    border:black; 
+    cursor: pointer; 
+}
+.container-4{
+    text-align: right; 
+    padding: auto; 
 }
