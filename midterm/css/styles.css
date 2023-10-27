@@ -1,10 +1,11 @@
- /*Main title */
+ /*Main title*/
 header h1{
-    position: static;
     color: white;
-    transform: translate(0%,-350%);
-    font-size: 60px;
     text-align: center;
+    font-size: 50px;
+    position: static;
+    transform: translate(0px, -200px);
+    margin: 0%;
 }
 
   body {
@@ -14,12 +15,13 @@ header h1{
 
 nav{
     float: center;
+    transform: translate(0px, -55px);
 }
  /*nav list toda */
 nav ul{
     list-style: none;
     padding: 0;
-    margin: 0px, 10px, 10px, 10px;
+    margin: 0px, 15px, 15px, 15px;
 }
 
 nav li{
@@ -41,6 +43,7 @@ nav a{
 .h2{
     font-size: 40px;
     margin-left: 10px;
+    margin-top: 0px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
