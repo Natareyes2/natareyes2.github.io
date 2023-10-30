@@ -1,55 +1,68 @@
- /*Main title*/
-header h1{
-    color: white;
+/*image of the header*/
+ .img{
+    position: relative; 
+    width: 100%;
+    height: auto;
     text-align: center;
-    font-size: 50px;
-    position: static;
-    transform: translate(0px, -200px);
-    margin: 0%;
+    padding: none;
+ }
+
+/*Main title*/
+h1 {
+    position: absolute;
+    color: white;
+    transform: translate(-50%,0%);
+    top: 270px;
+    left: 50%;
+    font-size: 70px;
+    margin: 0;
 }
 
-  body {
-    background-color:rgb(245, 212, 225); 
-    margin: 0;
-  }
+body {
+    background-color:rgb(237, 179, 202); 
+    margin: auto;
+    max-width: 1000px;
+}
+
+main,header{
+    background-color: rgb(245, 212, 225);
+    padding: 10px;
+}
 
 nav{
-    float: center;
-    transform: translate(0px, -55px);
+    text-align: center;
 }
  /*nav list toda */
 nav ul{
     list-style: none;
     padding: 0;
-    margin: 0px, 15px, 15px, 15px;
+    display: flex;
 }
 
-nav li{
+nav li {
     display: inline-block;
-    margin-left: 300px;
+    flex: 1;
 }
 
-nav a{
+a{
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 30px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-top: 0px;
 }
 
+.navegate li:not(:last-child){
+    border-right: 2px solid rgb(146, 27, 77);
+    height: auto;
+}
 
 /*h2 - Life of a Starfish*/
 .h2{
     font-size: 40px;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 0px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-/*image of the header*/
-.img{
-    width: 100%;
 }
 
 /*container-1 have the img-2 (photo of the star) and paragraph*/
@@ -59,15 +72,17 @@ nav a{
 
 .img-2{
     float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
 }
 
 /*question*/
 p{
-    margin-left: 0px ;
+    margin-left: 15px ;
     margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
 }
 
 /*h3-Facts About Starfish*/
@@ -81,28 +96,30 @@ p{
 /*boiled point*/
 .ul-list{
     margin-top: 5px;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-bottom: 5px;
     padding-left: 15px;
     padding-top: 5px;
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
 }
 
 /*h4-Contact to learn*/
 .h4{
     font-size: 25px;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-bottom: 10px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /*square form*/
 .form-1 label{
-        display: grid;
-        margin-bottom: 5px;
-        margin-left: 0px;
-        margin-top: 15px;
+    display: grid;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .form-1 input[type="text"] {
     width: 100%;
@@ -112,14 +129,16 @@ p{
 }
 #message{
     resize: none;
-    width: 100%; 
-    height: auto;  
+    width: 100%;   
+}
+.radio{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*container square*/
 .container-2{
     width: auto;
-    margin: 10px; 
+    margin: 15px; 
     padding: 10px;
     padding-right: 20px; 
     border: 1px solid #615d5d; 
@@ -133,6 +152,10 @@ p{
     cursor: pointer;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
+}
+
+.question{
+    margin: 10px;
 }
 
 /*container footer copy*/
