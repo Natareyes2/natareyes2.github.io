@@ -55,6 +55,14 @@ h1{
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     font-size: 60px;
+    transform: translate(0, -780px);
+}
+.p1{
+    transform: translate(0, -600px);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
     
+
 }
 
