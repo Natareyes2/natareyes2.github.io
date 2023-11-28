@@ -1,0 +1,10 @@
+header{
+    background-color:rgb(54, 53, 53); 
+    margin: auto;
+    max-width: 1000px;
+}
+#rectangle{
+    height: 200px;
+    width: auto;
+    background-color:rgb(196, 142, 43) ;
+}
