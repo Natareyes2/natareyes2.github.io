@@ -391,8 +391,8 @@ footer{
 
     nav{
         display: flex;
-        justify-content: right;
-        align-items: top;
+        justify-content: center;
+        align-items: flex-start;
     }
     nav ul{
         display: flex;
